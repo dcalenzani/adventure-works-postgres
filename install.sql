@@ -1,16 +1,5 @@
 -- AdventureWorks for Postgres
---  by Lorin Thwaits
-
--- How to use this script:
-
--- Download "Adventure Works 2014 OLTP Script" from:
---   https://msftdbprodsamples.codeplex.com/downloads/get/880662
-
--- Extract the .zip and copy all of the CSV files into the same folder containing
--- this install.sql file and the update_csvs.rb file.
-
--- Modify the CSVs to work with Postgres by running:
---   ruby update_csvs.rb
+--  by Lorin Thwaits and Norfolk Data
 
 -- Create the database and tables, import the data, and set up the views and keys with:
 --   psql -c "CREATE DATABASE \"Adventureworks\";"

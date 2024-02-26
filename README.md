@@ -14,8 +14,8 @@ Head over to [https://www.postgresql.org/download/windows/](https://www.postgres
 ### Run the script
 
 Once you have confirmed your postgres install, run the following two lines:
-
-	psql -c "CREATE DATABASE \"Adventureworks\";"
-	psql -d Adventureworks < install.sql
-
+	
+	psql -U USER -c "CREATE DATABASE \"Adventureworks\";"
+	psql -U USER -d Adventureworks < install.sql
+		
 You're all set!
